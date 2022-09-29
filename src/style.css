@@ -1,6 +1,10 @@
+body {
+  font-family: "Space Mono", monospace;
+}
 h1 {
   font-size: 25px;
-  margin: 99px 30px 2px 20px;
+  font-weight: 100;
+  line-height: 27px;
 }
 h2 {
   font-size: 16px;
@@ -11,12 +15,23 @@ h3 {
   margin: 0 32px 20px 20px;
 }
 .application {
+  max-width: 600px;
   background: #e3fdfd;
-  border-radius: 16px;
-  box-shadow: 0 30px 50pxrgba (65, 50, 100, 0.08);
+  border-radius: 15px;
+  border: 1px solid #e3fdfd;
   color: #878787;
-  font-family: "Space Mono", monospace;
-  padding: 40px;
+  padding: 30px;
+  margin: 20px auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 #search-format {
   display: inline-block;
