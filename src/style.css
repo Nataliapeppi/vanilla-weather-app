@@ -1,3 +1,40 @@
 h1 {
-  color: red;
+  font-size: 25px;
+  margin: 99px 30px 2px 20px;
+}
+h2 {
+  font-size: 16px;
+  margin: -80px 800px 100px 320px;
+}
+h3 {
+  font-size: 16px;
+  margin: 0 32px 20px 20px;
+}
+.application {
+  background: #e3fdfd;
+  border-radius: 16px;
+  box-shadow: 0 30px 50pxrgba (65, 50, 100, 0.08);
+  color: #878787;
+  font-family: "Space Mono", monospace;
+  padding: 40px;
+}
+#search-format {
+  display: inline-block;
+  background: #71c9ce;
+  background: #d6efed;
+  border: none;
+  border-radius: 2px;
+  color: rgba(216, 226, 100, 0.4);
+  font-size: 16px;
+  height: 40px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+.application .btn {
+  background: #71c9ce;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  line-height: 10px;
+  padding: 10px 0;
 }

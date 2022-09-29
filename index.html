@@ -12,15 +12,70 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
-      <h1>
-        Good morning
-      </h1>
-      <a href="" class="btn btn-primary">Click here</a>
+      <div class="application">
+        <form id="search-city">
+    </br>
+    </br>
+    <div class="row">
+    <div class="col-9">
+        <input
+          type="search"
+          autofocus="on"
+          autocomplete="off"
+          id="search-format"
+          placeholder="Type your city"/>
     </div>
+          <div class="col-3 p-0">
+          <input 
+          type="submit"
+          value="Search"
+          class="form-control btn btn-primary w-100"/>
+    </div>
+  </div>
+        </form>
+        <h1 id="city">
+          New York
+      </h1>
+      <ul>
+        <li>
+      August 21, 2022
+      </li>
+      <li>
+        <span id="description">
+        Sunny
+        </span>
+      </li>
+      <div class="row">
+        <div class="col-6">
+          <span class="temp" id="temperature">
+          35°C/29°C
+          </span>
+        </div>
+          <div class="col-6">
+ <ul>
+        <li>
+Precipitation %
+      </li>
+      <li>
+        <span id="humidity">
+        Humidity</span> %
+      </li>
+      <li>
+        <span id="wind">
+        Wind</span> km/h
+      </li>
+          </div>
+      </div>
+      </div>
+    </div>
+    <small>
+      <a href="https://github.com/Nataliapeppi/vanilla-weather-app" target="_blank">Open-source code</a>
+    </small>
     <script src="src/app.js"></script>
   </body>
 </html>
