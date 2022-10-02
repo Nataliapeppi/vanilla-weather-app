@@ -5,6 +5,8 @@ h1 {
   font-size: 25px;
   font-weight: 100;
   line-height: 27px;
+  margin-bottom: 0;
+  margin-top: 5px;
 }
 h2 {
   font-size: 16px;
@@ -14,14 +16,16 @@ h3 {
   font-size: 16px;
   margin: 0 32px 20px 20px;
 }
-.application {
+.application-box {
   max-width: 600px;
+  margin: 20px auto;
+}
+.application {
   background: #e3fdfd;
   border-radius: 15px;
   border: 1px solid #e3fdfd;
   color: #878787;
   padding: 30px;
-  margin: 20px auto;
 }
 ul {
   margin: 0;
@@ -32,6 +36,19 @@ li {
   font-size: 18px;
   margin: 0;
   padding: 0;
+}
+#temperature {
+  color: #c9bbcf;
+  font-size: 60px;
+}
+.application .units {
+  font-size: 18px;
+  position: relative;
+  top: -24px;
+}
+a:link {
+  text-decoration: none;
+  color: #878787;
 }
 #search-format {
   display: inline-block;
