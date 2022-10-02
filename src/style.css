@@ -36,6 +36,7 @@ li {
   font-size: 18px;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 #temperature {
   color: #c9bbcf;

@@ -13,7 +13,8 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
      <link rel="stylesheet" href="src/style.css" />
-    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+     <title>Weather App</title>
   </head>
   <body>
     <div class="container">
@@ -40,7 +41,6 @@
   </div>
         </form>
         <h1 id="city">
-          New York
       </h1>
       <ul>
         <li>
@@ -51,25 +51,22 @@
         Sunny
         </span>
       </li>
+      </ul>
       <div class="row">
         <div class="col-6">
-          <span class="temp" id="temperature">
-          35</span><span class="units">
+          <span class="temp" id="temperature"></span><span class="units">
           °C|<a href="#">°F</a></span>
         </div>
           <div class="col-6">
  <ul>
-        <li>
-Precipitation %
+      <li>
+        Humidity: <span id="humidity">
+        </span>%
       </li>
       <li>
-        <span id="humidity">
-        Humidity</span> %
+        Wind: <span id="wind"></span>km/h
       </li>
-      <li>
-        <span id="wind">
-        Wind</span> km/h
-      </li>
+      </ul>
           </div>
     </div>
     </div>
