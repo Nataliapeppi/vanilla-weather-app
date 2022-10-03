@@ -6,7 +6,6 @@ h1 {
   font-weight: 100;
   line-height: 27px;
   margin-bottom: 0;
-  margin-top: 5px;
 }
 h2 {
   font-size: 16px;
@@ -66,7 +65,7 @@ a:link {
   background: #d6efed;
   border: none;
   border-radius: 2px;
-  color: rgba(216, 226, 100, 0.4);
+  color: #71c9ce;
   font-size: 16px;
   height: 40px;
   line-height: 20px;
