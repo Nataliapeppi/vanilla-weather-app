@@ -37,12 +37,12 @@ function displayTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
   iconElement.setAttribute(
     "src",
-    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}2x.png`
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 let apiKey = "2c975c993eaf1e67699dced574209890";
-let city = "London";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=&{city}&appid=${apiKey}&units=metric`;
+let city = "Moscow";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 axios.get(apiUrl).then(displayTemperature);

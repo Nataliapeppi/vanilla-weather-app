@@ -44,10 +44,17 @@ li:first-letter {
   color: #c9bbcf;
   font-size: 60px;
 }
+.application img {
+  margin-right: 5px;
+  margin-top: 12px;
+  height: 63px;
+  width: 63px;
+}
 .application .units {
-  font-size: 18px;
   position: relative;
-  top: -24px;
+  font-size: 18px;
+  top: -35px;
+  top: 20px;
 }
 a:link {
   text-decoration: none;
