@@ -20,10 +20,10 @@ h3 {
   margin: 20px auto;
 }
 .application {
-  background: #e3fdfd;
+  background: #eef1ff;
   border-radius: 15px;
   border: 1px solid #e3fdfd;
-  color: #878787;
+  color: #b1b2ff;
   padding: 30px;
 }
 ul {
@@ -40,7 +40,7 @@ li:first-letter {
   text-transform: capitalize;
 }
 #temperature {
-  color: #c9bbcf;
+  color: #aac4ff;
   font-size: 60px;
 }
 .application img {
@@ -57,25 +57,31 @@ li:first-letter {
 }
 a:link {
   text-decoration: none;
-  color: #878787;
+  color: #aac4ff;
 }
 #search-format {
   display: inline-block;
-  background: #71c9ce;
-  background: #d6efed;
+  background: #d2daff;
   border: none;
   border-radius: 2px;
-  color: #71c9ce;
   font-size: 16px;
   height: 40px;
   line-height: 20px;
   padding: 15px 20px;
 }
 .application .btn {
-  background: #71c9ce;
+  background: #b1b2ff;
   border: none;
   font-size: 16px;
   height: 40px;
-  line-height: 10px;
+  line-height: 20px;
   padding: 10px 0;
+}
+.forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #aac4ff;
+}
+.forecast-date {
+  font-size: 17px;
 }
