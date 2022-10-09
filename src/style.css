@@ -20,10 +20,10 @@ h3 {
   margin: 20px auto;
 }
 .application {
-  background: #eef1ff;
+  background: #f2d7d9;
   border-radius: 15px;
   border: 1px solid #e3fdfd;
-  color: #b1b2ff;
+  color: #9cb4cc;
   padding: 30px;
 }
 ul {
@@ -40,7 +40,7 @@ li:first-letter {
   text-transform: capitalize;
 }
 #temperature {
-  color: #aac4ff;
+  color: #748da6;
   font-size: 60px;
 }
 .application img {
@@ -57,11 +57,10 @@ li:first-letter {
 }
 a:link {
   text-decoration: none;
-  color: #aac4ff;
+  color: #748da6;
 }
 #search-format {
   display: inline-block;
-  background: #d2daff;
   border: none;
   border-radius: 2px;
   font-size: 16px;
@@ -70,7 +69,7 @@ a:link {
   padding: 15px 20px;
 }
 .application .btn {
-  background: #b1b2ff;
+  background: #bebde3;
   border: none;
   font-size: 16px;
   height: 40px;
@@ -80,7 +79,7 @@ a:link {
 .forecast {
   margin-top: 20px;
   text-align: center;
-  color: #aac4ff;
+  color: #748da6;
 }
 .forecast-date {
   font-size: 17px;

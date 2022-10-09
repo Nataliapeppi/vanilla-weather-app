@@ -17,7 +17,7 @@ function formatDate(timestamp) {
     "Friday",
     "Saturday",
   ];
-  let day = days[date.getDate()];
+  let day = days[date.getDay()];
   return `${day} ${hours}:${minutes}`;
 }
 function formatDay(timestamp) {
@@ -35,7 +35,7 @@ function displayForecast(response) {
   let forecastHTML = `<div class="row">`;
 
   forecast.forEach(function (forecastDay, index) {
-    if (index < 5) {
+    if (index < 6) {
       forecastHTML =
         forecastHTML +
         `
@@ -48,7 +48,7 @@ function displayForecast(response) {
     <div class="forecast-temperature">
       <span class="forecast-temperarure-max"> ${Math.round(
         forecastDay.temp.max
-      )}° </span>
+      )}°</span>
       <span class="forecast-temperature/min"> ${Math.round(
         forecastDay.temp.min
       )}° </span>
