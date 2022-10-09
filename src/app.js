@@ -53,7 +53,7 @@ function displayForecast(response) {
         forecastDay.temp.min
       )}° </span>
   </div>
-  </div>;
+  </div>
   `;
     }
   });
@@ -63,7 +63,6 @@ function displayForecast(response) {
 function getForecast(coordinates) {
   let apiKey = "f3009e4852fa0a079dab291dabf020c4";
   let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}&units=metric`;
-  console.log(apiUrl);
   axios.get(apiUrl).then(displayForecast);
 }
 
